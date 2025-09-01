@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-image: url("flores.jpg.jpg");
+    background-size: cover;            
+    background-position: center;      
+    background-repeat: no-repeat;   
+    font-size: 1em;
+    color: #000000;
+    font-weight: bold;
+}
+
+.contenedor {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color:rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #d40c4f;
+}
+
+#main-container {
+  background:rgba(255, 255, 255, 0.5);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 15px rgba(255, 0, 85, 0.4);
+  transition: transform 0.3s ease;
+}
+
+#main-container:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 20px rgba(255, 0, 85, 0.8);
+}
+
+#titulo-principal {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #970f31;
+    background-color: rgb(245, 202, 202);
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px;
+    color:  #970f31;
+}
+
+p.links a{
+    margin: 0 5px;
+    text-align: center;
+    color: #c23105;
+    text-decoration: underline;
+    font-size: 1em;
+    transition: color 0.2s;
+    background-color: rgb(245, 202, 202);
+}
+
+p.links a:hover{
+    color: #970f31;
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #000000;
+}
+
+.firma {
+  text-align: center;
+  color: #ffffff;
+  background-color: rosybrown;
+  margin-top: 50px;
+  font-size: 0.9em;
+}
